@@ -1,0 +1,45 @@
+body{
+    font-family: verdana;
+    background: #ffece5;
+}
+.new-user{
+    background: #fff;
+    padding: 20px 40px;
+    max-width: 300px;
+    box-shadow: 5px 15px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 0 auto;
+    /* margin-top: 10%; */
+}
+h2{
+    color: #555;
+}
+label, input{
+    display: block;
+    margin: 18px 0;
+}
+label{
+    color: #777;
+}
+input[type="text"],
+input[type="email"]{
+    padding: 15px;
+    border: 2px solid #b1aeae;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+}
+input[type="submit"]{
+    margin: 20px auto;
+    font-size: 18px;
+    width: 100%;
+    background: coral;
+    border: none;
+    padding: 10px 16px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.errors{
+    color: red;
+}
